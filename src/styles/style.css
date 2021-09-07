@@ -1,0 +1,650 @@
+.wrapper {
+    max-width: 2666.6px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*for hexogen*/
+.links {
+    position: relative;
+    top: 16.5rem !important;
+    left: 27%;
+    width: 140px;
+    height: 140px;
+    margin: -100px 0 0 -100px;
+}
+  
+.links svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/*for first modal*/
+.modal1 {
+    display:inline-flex;
+    justify-content: center;
+    top: 18%;
+    transition: all 0.5s;
+    position: absolute;
+    height: 77%;
+    left: -1%;
+}
+
+.main {
+    background: rgb(241, 249, 255);
+    width: 34.8%;
+    height: 50%;
+    transition: all 0.5s;
+}
+
+.mainLeftPart {
+    background: rgb(127, 196, 253);
+    width: 13.7%;
+    height: 50%;
+    transition: all 0.5s;
+}
+
+/*for main part*/
+.forMain {
+    font-family: 'Besley', serif;
+    color: rgb(38, 153, 251);
+    margin-left: 7%;
+    margin-right: 15%;
+}
+
+.forH1 {
+    font-size: 1.5rem;
+    margin-top: 20%;
+    margin-bottom: 1.8%;
+    position: relative;
+}
+
+.forParagraf {
+    font-size: 0.8rem;
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+/*for open more text*/ 
+.open {
+    height: 100%;
+    transition: all 0.5s;
+}
+
+.changeMain, .changeMain  + .main {
+    height: 90% !important;
+    transition: all 0.5s;
+}
+
+.changeTop {
+    top: 5% !important;
+    transition: all 0.5s;
+}
+
+
+/*for buttons in main part*/
+.forButton {
+    display: inline-flex;
+    justify-content: space-around;
+    margin-left: 9%;
+    position: relative;
+}
+
+.button1 {
+   margin: 5%; 
+}
+
+.button2 {
+    margin: 5%;
+}
+
+#btn1 {
+    cursor: pointer;
+    border-color: rgb(188, 224, 253);
+    font-size: 0.7rem;
+    color: rgb(38, 153, 251);
+    width: 7rem;
+    outline: none;
+    box-shadow: none;
+    letter-spacing: 0.1px;
+}
+
+#btn1:hover {
+    background: none;
+    border-color: rgb(188, 224, 253);
+    box-shadow: none;
+}
+
+#btn2 {
+    cursor: pointer;
+    background: rgb(38, 153, 251);
+    border-color: rgb(38, 153, 251);
+    font-size: 0.7rem;
+    width: 7rem;
+    outline: none;
+    box-shadow: none;
+    letter-spacing: 0.1px;
+}
+
+/*for second modal*/
+.modal {
+    margin-top: 5%;
+}
+
+.modal-content {
+    border: none;
+    box-shadow: none;
+    outline: none;
+    border-radius: 0;
+}
+
+.modal-header {
+    background: rgb(188, 224, 253);
+    border-radius: 0;
+    color: rgb(38, 153, 251);
+    height: 90px;
+}
+
+.forH4 {
+    display: table-column;
+    padding: 7%;
+}
+
+.close {
+    color: rgb(38, 153, 251);
+    background: rgb(241, 249, 255) !important;
+    width: 38px !important;
+    height: 38px !important;
+    border-radius: 50%;
+    font-size: 1rem;
+    line-height: 0.1;
+    opacity: 1;
+    margin: 0.1% !important;
+    text-align: center !important;
+   
+}
+
+.close:hover {
+    color: rgb(38, 153, 251);
+    background: rgb(241, 249, 255) !important;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    opacity: 1 !important;
+}
+
+.closingItem {
+    margin-left: -2px;
+}
+
+h4 {
+    font-weight: 1000;
+    font-size: 0.9rem;
+    letter-spacing: 1.5px;
+}
+
+.forModalHead {
+    display: inline-flex;
+}
+
+.imgPlanet {
+    padding-left: 0;
+    margin-left: -2%;
+}
+
+.forPModal {
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+
+/*for slider*/
+.modal-body {
+    height: 18rem;
+    background: rgb(240, 249, 255);
+    padding: 0;
+}
+
+.author {
+    width: 70%;
+    color: rgb(38, 153, 251);
+    border: 4px solid rgb(188, 224, 253);
+    border-radius: 3px;
+    font-size: 0.9rem;
+    padding: 4px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.slider {
+    width: 100% !important;  
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+  
+.sim-slider {
+    position: relative;
+}
+  
+.sim-slider-list {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+  
+.sim-slider-element {
+    width: 100%;
+    opacity: 0;
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    top: 0;
+    display: block;
+}
+  
+/* Navigation item styles */
+div.sim-slider-arrow-left,
+div.sim-slider-arrow-right {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    cursor: pointer;
+    opacity: 1;
+    z-index: 4;
+    box-shadow: none !important;
+    outline: none !important;
+    border: none !important;
+}
+  
+div.sim-slider-arrow-left {
+    left: 3px;
+    top: 80px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    box-shadow: none !important;
+    outline: none !important;
+    border: none !important;
+}
+  
+div.sim-slider-arrow-right {
+    right: 3px;
+    top: 80px;
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+.btn {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 3px solid rgb(38, 153, 251);
+}
+
+.btnArrow {
+    background: rgb(241, 249, 255);
+    border: 3px solid rgb(38, 153, 251);
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    color: rgb(38, 153, 251);
+    outline: none;
+}
+
+.btnArrow:hover, .btnArrow:target, .btnArrow:active {
+    border: 3px solid rgb(38, 153, 251) !important;
+    color: rgb(38, 153, 251);
+    background: rgb(241, 249, 255) !important;
+    box-shadow: none;
+    outline: none;
+    opacity: 1 !important;
+    outline: none;
+}
+
+#leftBtn:disabled,
+#leftBtn[disabled] {
+    border: 3px solid rgb(149, 152, 154);
+    color: rgb(149, 152, 154) !important;
+    outline: none;
+}
+
+
+/*for footer*/
+.footer {
+    width: 100%;
+    position: fixed;
+    top: 77%;
+    background: rgb(38, 153, 251);
+    height: 100%;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.col-sm-8 {
+    width: 57%;
+    box-sizing: border-box;
+    padding-top: 4%;
+    padding-left: 4%;
+    text-align: left;
+    padding-right: 12%;
+}
+
+.col-sm-4 {
+    width: 43%;
+    box-sizing: border-box;
+    padding-right:  4%;
+    padding-top: 4%;
+    padding-left: 0;
+}
+
+h6 {
+    font-size: 0.75rem;
+    padding-bottom: 0.5rem;
+}
+
+.forFooter {
+    font-size: 0.75rem;
+}
+
+.img {
+    height: 17%;
+    width: 17%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 80%;
+    
+}
+
+img {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#time {
+    font-size: 0.8rem;
+}
+
+
+
+@media screen and (min-width:1200px) {
+    .col-sm-8 {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding-top: 4%;
+        padding-left: 4%;
+    }
+
+    .col-sm-4 {
+        display: flex;
+        flex-direction: column;
+        padding-right:  4%;
+        padding-top: 4%;
+        padding-left: 0;
+    }
+
+    .links {
+        top: 25rem !important;
+        width: 150px;
+        height: 150px;
+        margin: -100px 0 0 -100px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .col-sm-8 {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding-top: 4%;
+        padding-left: 6%;
+    }
+
+    .col-sm-4 {
+        display: flex;
+        flex-direction: column;
+        padding-right:  6%;
+        padding-top: 4%;
+        padding-left: 0;
+    }
+
+    .links {
+        top: 15rem !important;
+        width: 130px;
+        height: 130px;
+        margin: -100px 0 0 -85px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-sm-8 {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding-top: 4%;
+        padding-left: 6%;
+    }
+
+    .col-sm-4 {
+        display: flex;
+        flex-direction: column;
+        padding-right:  6%;
+        padding-top: 4%;
+        padding-left: 0;
+    }
+    
+    .changeMain, .changeMain  + .main {
+        height: 80% !important;
+    }
+
+    .forH1 {
+        margin-top: 15%;
+        font-size: 1rem;
+    }
+
+    .forParagraf {
+        font-size: 0.6rem;
+    }
+
+    #btn1, #btn2 {
+        width: 6rem;
+        font-size: 0.6rem;
+    }
+
+    .footer {
+       margin-top: -5%;
+    }
+
+    h6 {
+        font-size: 0.5rem;
+        padding-bottom: 0.25rem;
+    }
+    
+    .forFooter {
+        font-size: 0.5rem;
+    }
+
+    .img {
+        height: 13%;
+        width: 13%;
+    }
+
+    .links {
+        top: 15rem !important;
+        width: 120px;
+        height: 120px;
+        margin: -100px 0 0 -80px;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .col-sm-8 {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding-top: 4%;
+        padding-left: 6%;
+    }
+
+    .col-sm-4 {
+        display: flex;
+        flex-direction: column;
+        padding-right:  6%;
+        padding-top: 4%;
+        padding-left: 0;
+    }
+
+    .changeMain, .changeMain  + .main {
+        height: 70% !important;
+    }
+
+    .forH1 {
+        margin-top: 11%;
+        font-size: 0.65rem;
+    }
+
+    .forParagraf {
+        font-size: 0.35rem;
+    }
+
+    #btn1, #btn2 {
+        width: 3rem;
+        font-size: 0.3rem;
+    }
+
+    h6 {
+        padding-top: 7%;
+        font-size: 0.5rem;
+        padding-bottom: 0.15rem;
+    }
+
+    .footer {
+        margin-top: -10%;
+    }
+    
+    .forFooter {
+        font-size: 0.5rem;
+    }
+
+    .img {
+        height: 10%;
+        width: 10%;
+    }
+
+    .links {
+        top: 12.5rem !important;
+        width: 100px;
+        height: 100px;
+        margin: -100px 0 0 -70px;
+    }
+}
+
+@media (max-width: 575px) {
+    .modal-body {
+        height: 25rem;
+    }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 360px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col-sm-8 {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding-top: 4%;
+        padding-left: 6%;
+    }
+
+    .col-sm-4 {
+        display: flex;
+        flex-direction: column;
+        padding-right:  6%;
+        padding-top: 4%;
+        padding-left: 6%;
+    }
+
+    .open {
+        height: 20%;
+    }
+
+    .changeMain, .changeMain  + .main {
+        height: 80% !important;
+    }
+
+    .forH1 {
+        margin-top: 10%;
+        font-size: 0.5rem;
+    }
+
+    .forParagraf {
+        font-size: 0.3rem;
+    }
+
+    .forButton {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .button1, .button2 {
+        margin: -2%; 
+    }
+
+    #btn1, #btn2 {
+        width: 3rem;
+        font-size: 0.2rem;
+        height: 1rem;
+    }
+
+
+    h6 {
+        padding-top: 7%;
+        font-size: 0.5rem;
+        padding-bottom: 0.1rem;
+    }
+
+    .footer {
+        margin-top: -15%;
+    }
+    
+    .forFooter {
+        font-size: 0.5rem;
+    }
+
+    .img {
+        height: 10%;
+        width: 10%;
+    }
+
+    .links {
+        top: 18rem !important;
+        width: 90px;
+        height: 90px;
+        margin: -100px 0 0 -55px;
+    }
+
+    .modal-body {
+        height: 19rem;
+    }
+}
+
+
+
+
+
+
