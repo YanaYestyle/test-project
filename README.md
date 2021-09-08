@@ -4,17 +4,17 @@
 npm install
 
 ## Starting the developer server
-nmp start
+npm start
 
 ## Build in production mode
 npm run production
 
 ### Tools used
-[node]
-[webpack]
+* [node](https://nodejs.org/en/)
+* [webpack](https://webpack.js.org/)
 
 ### Libraries
-[bootstrap]
+* [bootstrap](https://www.w3schools.com/bootstrap4)
 
 ### API
-[picsum.photos]
+* [picsum.photos](https://picsum.photos)
