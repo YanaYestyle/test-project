@@ -391,13 +391,6 @@ img {
         padding-top: 4%;
         padding-left: 0;
     }
-
-    .links {
-        top: 25rem !important;
-        width: 150px;
-        height: 150px;
-        margin: -100px 0 0 -100px;
-    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -418,7 +411,7 @@ img {
     }
 
     .links {
-        top: 15rem !important;
+        top: 21rem !important;
         width: 130px;
         height: 130px;
         margin: -100px 0 0 -85px;
@@ -479,7 +472,7 @@ img {
     }
 
     .links {
-        top: 15rem !important;
+        top: 21rem !important;
         width: 120px;
         height: 120px;
         margin: -100px 0 0 -80px;
@@ -542,7 +535,7 @@ img {
     }
 
     .links {
-        top: 12.5rem !important;
+        top: 22rem !important;
         width: 100px;
         height: 100px;
         margin: -100px 0 0 -70px;
@@ -632,7 +625,7 @@ img {
     }
 
     .links {
-        top: 18rem !important;
+        top: 22rem !important;
         width: 90px;
         height: 90px;
         margin: -100px 0 0 -55px;
