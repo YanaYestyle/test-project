@@ -3,18 +3,18 @@
 ## Dependency Installation
 npm install
 
-##Starting the developer server
+## Starting the developer server
 nmp start
 
-##Build in production mode
+## Build in production mode
 npm run production
 
-###Tools used
-node
-webpack
+### Tools used
+[node]
+[webpack]
 
-###Libraries
-bootstrap
+### Libraries
+[bootstrap]
 
-###API
-picsum.photos
+### API
+[picsum.photos]
